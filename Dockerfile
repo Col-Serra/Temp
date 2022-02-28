@@ -1,6 +1,6 @@
 FROM python:3.9.2-slim-buster
 RUN mkdir /bot && chmod 777 /bot
-RUN git clone https://github.com/Col-Serra/light-Queue-Enc
+RUN git clone https://github.com/Col-Serra/light-Queue-Enc /bot
 WORKDIR /bot
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Africa/Lagos
